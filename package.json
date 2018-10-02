@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "name": "boilerplate-scss",
+    "description": "Starter with SASS: When you have problem how to compile *.scss files to *.css",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "https://piecioshka.pl/"
+    },
+    "scripts": {
+        "build": "sass src/styles/main.scss dist/main.css"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "sass": "^1.14.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:piecioshka/boilerplate-scss.git"
+    }
+}
