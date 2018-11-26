@@ -10,7 +10,8 @@
         "url": "https://piecioshka.pl/"
     },
     "scripts": {
-        "build": "sass src/styles/main.scss dist/main.css"
+        "build": "sass src/styles/main.scss dist/main.css",
+        "watch": "npm run build -- --watch"
     },
     "dependencies": {},
     "devDependencies": {

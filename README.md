@@ -6,18 +6,17 @@
 
 ## Features
 
-* :checkered_flag: Compile `*.scss` to `*.css`
-* :checkered_flag: Support [Source Maps](https://mino.pl/css-source-maps)
-* :checkered_flag: Free of use any module, bundler (rollup, webpack)
-* :checkered_flag: Free of use any tasks manager (gulp, grunt)
-* :checkered_flag: One dependency: [sass](https://npmjs.com/package/sass)
+* :white_check_mark: Compile `*.scss` to `*.css`
+* :white_check_mark: Support [Source Maps](https://mino.pl/css-source-maps)
+* :white_check_mark: **Free of use** any module bundler (ex. rollup, webpack)
+* :white_check_mark: **Free of use** any tasks manager (ex. gulp, grunt)
+* :white_check_mark: One `devDependency`: [sass](https://npmjs.com/package/sass)
 
 ## Usage
 
-1. Compile `*.scss` files:
+```bash
+npm run build   # Compile single time *.scss files
+npm run watch   # Listen for changing any *.scss file
+```
 
-    ```bash
-    npm run build
-    ```
-
-2. Open in browser `index.html`
+Open file `index.html` in browser.
