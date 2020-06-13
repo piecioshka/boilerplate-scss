@@ -1,8 +1,6 @@
 # boilerplate-scss
 
-[![dependencies](https://david-dm.org/piecioshka/boilerplate-scss.svg)](https://github.com/piecioshka/boilerplate-scss)
-
-🍴 Starter with SASS: When you have problem how to compile *.scss files to *.css
+🍴 Starter with SASS compiler (*.scss files to *.css)
 
 ## Features
 
