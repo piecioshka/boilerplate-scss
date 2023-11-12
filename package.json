@@ -13,9 +13,8 @@
         "build": "sass src/styles/main.scss dist/main.css",
         "watch": "npm run build -- --watch"
     },
-    "dependencies": {},
     "devDependencies": {
-        "sass": "^1.14.1"
+        "sass": "^1.69.5"
     },
     "repository": {
         "type": "git",
